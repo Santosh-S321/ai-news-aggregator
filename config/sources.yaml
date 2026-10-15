@@ -1,0 +1,30 @@
+# Add or remove sources here; no code changes needed.
+# Run `python -m app.main check-sources` to verify every feed responds.
+sources:
+  - name: OpenAI News
+    type: rss
+    url: https://openai.com/news/rss.xml
+    fetch_full_text: true
+
+  # Anthropic has no official RSS; these are community-generated mirrors
+  - name: Anthropic News
+    type: rss
+    url: https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml
+    fetch_full_text: true
+  - name: Anthropic Engineering
+    type: rss
+    url: https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_engineering.xml
+    fetch_full_text: true
+
+  - name: Hugging Face Blog
+    type: rss
+    url: https://huggingface.co/blog/feed.xml
+    fetch_full_text: true
+
+  - name: Hacker News (AI, 100+ points)
+    type: rss
+    url: https://hnrss.org/newest?q=LLM+OR+GPT+OR+%22machine+learning%22&points=100
+
+  # - name: Example YouTube channel
+  #   type: youtube
+  #   channel_id: UCxxxxxxxxxxxxxxxxxxxxxx
