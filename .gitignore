@@ -1,0 +1,29 @@
+# Secrets: never commit
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+
+# Generated output
+digest_preview.html
+
+# Archives and editor/OS files
+*.zip
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Neon CLI local files (project link, agent/MCP config)
+.neon
+.mcp.json
+node_modules/
+package.json
+package-lock.json
+neon.ts
