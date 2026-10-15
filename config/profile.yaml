@@ -1,0 +1,22 @@
+# Who the digest is for. Edit freely; it is embedded and used to rank articles.
+role: AI/ML engineer building production LLM applications
+expertise_level: Intermediate to advanced
+interests:
+  - Large language models and their applications
+  - Retrieval-augmented generation, vector databases and semantic search
+  - AI agents, tool use, function calling and the Model Context Protocol (MCP)
+  - Fine-tuning and small open-weight models (LoRA, quantization, Qwen, Llama, Gemma, Mistral)
+  - Hugging Face ecosystem and open-source AI releases
+  - NLP tasks such as text summarization and classification
+  - Multimodal models (vision, speech, speech-to-text, sign language and accessibility)
+  - Machine learning for fraud detection, anomaly detection and finance
+  - MLOps, LLM evaluation, observability, and deploying AI systems
+  - Prompt and context engineering, structured outputs
+  - AI coding assistants and developer tools
+  - Responsible AI, safety, and guardrails
+  - Research papers with practical implications
+avoid:
+  - Funding announcements and company gossip
+  - Generic marketing posts
+  - Stock-market or crypto speculation
+  - Customer case studies and vendor success stories
